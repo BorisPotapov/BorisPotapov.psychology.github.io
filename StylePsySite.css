@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#background-images{
+	width: 100%;
+	background-image: url(img/1.jpg);
+	height: 650px;
+}
+#content{
+	width: 960px;
+	padding-left: 13%;
+	padding-right: 13%;
+}
+
+#psychology{
+	height:500px;
+	width: 960px;
+	text-align: center;
+	position: absolute;
+}
+#class1{
+	font-size: 100px;
+	margin-top: 100px;
+}
+#class2{
+	font-size: 50px;
+	margin-top: 10px;
+	color: black;
+}
+#buttons{
+	margin-top: 30px;
+	
+}
+#button{
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 30px;
+	border-radius: 15px;
+	border-color: #FCF9D6;
+	background-color: rgb(252, 192, 104, 0.7);
+}
+#text{
+	width: 960px;	
+	margin-left: 13%;
+	margin-right: 13%;
+	text-align: justify;
+	font-size: 20px;
+}
+#about{
+	text-align: center;
+	font-size:30px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+   hr {
+	width: 70px;
+    border: none; /* Убираем границу */
+    background-color: red; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+   }
+
+
+}
+#Big_button{
+	margin-left: 95px;
+}
+#footer{
+	width: 100%;
+	height: 150px;
+	background: #FCC068;
+	
+}
+#h2{
+	text-align:center;
+	margin: 10px;
+	font-size: 30px;
+	
+}
+#p{
+	text-align: center;
+	font-size:16px;
+}
+#dropdoun{\
+padding-left: 0px;
+	
+}
+#lili{
+	padding: 100px;
+}
+#menu li{
+	float: left;
+	display: block;
+	text-decoration: none;
+	margin-left: 170px;
+	padding: 20px;
+	color: black;
+	position: relative;
+	background-color: rgb(255, 225, 184, 0.2);
+}
+#menu li:hover{
+	background-color: rgb(255, 225, 184, 0.6);
+}
+#menu li ul li{
+	float: none;
+	padding: 200;
+	margin: 0;
+	display: none;
+}
+#menu li:hover ul li{
+	display: block;
+}
+#submenu{
+	float: none;
+	right: 0px;
+	top: 0;
+	position: absolute;
+	display: none;
+}
+#b2:hover #submenu {
+	display: block;
+	
+}
